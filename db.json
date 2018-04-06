@@ -1,0 +1,229 @@
+{
+     "talks": [
+{
+"id": "AZE-7421",
+"event": "DevoxxMA2017",
+"lang": "fr",
+"title": "[0★] Fabric8: A free, end-to-end, cloud-native development experience.",
+"mainSpeaker": "Abdellatif BOUCHAMA",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "Fabric8 offre une plateform de développement de bout en bout, conçu pour les développeurs qui souhaitent commencer à développer rapidement sur le cloud avec des conteneurs (kubernetes), elle comprend tous les outils nécessaires tels que la planification, l'analyse, un IDE basé sur le Web et un CI / CD complet. \r\n\r\nça vous tente ? Why not, it's Free ;-)",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "agTest",
+"label": "agile_devops.label"
+},
+"demoLevel": "d2",
+"preferences": "wednesday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A Raspberry Pi and DeepLearning4J Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A Raspberry Pi and DeepLearning4J Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A Angular Universale and DeepLearning4J Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A Spring Reactive and DeepLearning4J Brain That Plays",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A React Native Mobile and DeepLearning4J Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A Raspberry Pi and DeepLearning4J Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+},
+{
+"id": "DKH-5011",
+"event": "DevoxxMA2017",
+"lang": "en",
+"title": "[0★] A DeepLearning4J Brain That Plays Minecraft",
+"mainSpeaker": "Simon Ritter",
+"otherSpeakers": [],
+"talkType": {
+"id": "conf",
+"label": "conf.label"
+},
+"audienceLevel": "l1",
+"summary": "According to Wikipedia, Minecraft is the second best-selling video game of all time.  The original, PC-based version, written in Java is undoubtedly the most popular Java client application ever.\r\n\r\nThe creator of Minecraft, Mojang, was acquired by Microsoft in 2014 and recently Microsoft Labs announced a related project called Malmo.  The Malmo platform is a sophisticated AI experimentation platform built on top of Minecraft and designed to support fundamental research in artificial intelligence.\r\n\r\nIn this session, we will look at how project Malmo was used in conjunction with the DeepLearning4J library and a cluster of Raspberry Pis to develop software in Java to play Minecraft without the need for a human.\r\n\r\nWe'll start with a brief introduction to the ideas of machine learning before moving on to the DeepLearning4J library that simplifies development of this type of code in Java.  We’ll discuss the design of the Raspberry Pi cluster and the software developed before finishing with a demonstration of the Pi Brain playing Minecraft autonomously.",
+"privateMessage": "",
+"state": {
+"code": "accepted"
+},
+"sponsorTalk": false,
+"track": {
+"id": "bigd",
+"label": "bigdata.label"
+},
+"demoLevel": "d2",
+"preferences": "thursday from 11:30 to 12:20 && "
+}
+]
+}

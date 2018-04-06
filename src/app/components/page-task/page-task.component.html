@@ -1,0 +1,30 @@
+<h2 class="display-2">Playlists Tasks</h2>
+
+<div class="row">
+ <div class="col-sm">
+        <a href="https://vadimdez.github.io/ng2-pdf-viewer/pdf-test.pdf"><span class="badge badge-pill badge-danger">Tasks PDF</span></a>
+        
+        <a href="export"><span class="badge badge-pill badge-info">Tasks Charts</span></a>
+        
+        <a href="formulaire"><span  class="badge badge-pill badge-success">Show Formulaire</span></a>
+        <!-- <span (click)="showAnotherPush()" class="badge badge-pill badge-danger">Show Notif</span> -->
+      
+        <span class="badge badge-pill badge-info" >Date Time:</span>
+        <angular2-date-picker [(ngModel)]="date" [settings]="settings"></angular2-date-picker>   
+</div> 
+</div>
+<br />
+<div class="row">
+<div class="col-sm">
+<ul class="list-group list-group-flush"  *ngFor="let task of tasks | paginate: { itemsPerPage: 3, currentPage: p }">
+        <li class="list-group-item list-group-item-dark">{{ task.mainSpeaker }}</li>
+        <li class="list-group-item">{{ task.title }}</li>
+        <li class="list-group-item">{{ task.event }}</li>
+</ul>
+     <!-- <button type="button" class="btn btn-danger" (click)="DownloadPdf()">Download PDF</button>  -->
+</div>     
+</div>      
+      <div class="d-flex justify-content-center">    
+      <pagination-controls (pageChange)="p = $event"></pagination-controls>
+     </div>
+     

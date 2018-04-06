@@ -1,0 +1,46 @@
+{
+    "slots": [
+{
+"id": "conf_room_01_wednesday_15_11h30_12h20",
+"name": "conf",
+"day": "wednesday",
+"from": 1510745400000,
+"to": 1510742300000,
+"room": {
+"id": "room_01",
+"name": "Oud",
+"capacity": 86,
+"setup": "classroom",
+"recorded": "rien"
+}
+},
+{
+"id": "conf_room_02_wednesday_15_11h30_12h20",
+"name": "conf",
+"day": "wednesday",
+"from": 1510745400000,
+"to": 1510748400000,
+"room": {
+"id": "room_02",
+"name": "Canelle",
+"capacity": 64,
+"setup": "classroom",
+"recorded": "rien"
+}
+},
+{
+"id": "conf_room_03_wednesday_15_11h30_12h20",
+"name": "conf",
+"day": "wednesday",
+"from": 1510745400000,
+"to": 1510748400000,
+"room": {
+"id": "room_03",
+"name": "Citron",
+"capacity": 96,
+"setup": "classroom",
+"recorded": "rien"
+}
+}
+]
+}

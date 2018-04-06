@@ -1,0 +1,36 @@
+<sk-cube-grid *ngIf="showSpinner"></sk-cube-grid>
+<div class="row">
+<div class="col-sm">
+<h2>Salts Filter</h2>
+<div>
+        <select class='select-option form-control' [(ngModel)]="dateFrom">
+                <option class='option' *ngFor='let solt of solts' [value]="solt.from">{{solt.from | date: 'dd/MM/yyyy hh:mm:ss'}}</option>
+        </select>
+        <select class='select-option form-control' [(ngModel)]="dateTo">
+                <option class='option' *ngFor='let solt of solts' [value]="solt.to">{{solt.to | date: 'dd/MM/yyyy hh:mm:ss'}}</option>
+        </select>
+</div>
+<div>
+<br/>
+<select class='select-option form-control form-control-lg' [(ngModel)]="term">
+    <option class='option' *ngFor='let solt of solts'>{{solt.room.id}}</option>
+</select>
+<input type="checkbox" name="chShow" value="true" checked="" class="ng-valid ng-dirty">
+              Collapse allocated slots
+</div>
+<br/>
+<span class="badge badge-pill badge-primary float-right">Available:  / {{ solts?.length }}</span>
+<br/>
+<div class="card" *ngFor="let solt of solts |filter:term |filter:dateTo" draggable [dragula]='"bag-task1"'>
+     <div class="card-body">
+            <h3>{{ solt.name }}</h3>
+           <span class="badge badge-warning">{{ solt.day }}{{ solt.to | date: 'dd/MM/yyyy hh:mm:ss' }}</span>
+           <span class="badge badge-primary">{{ solt.room.name }}</span>
+           <span class="badge badge-success">{{ solt.room.capacity }}</span>
+           <span class="badge badge-warning">{{ solt.room.setup }}</span>
+           <span class="badge badge-danger">{{ solt.room.recorded }}</span>
+</div>
+</div>
+</div>
+
+</div>

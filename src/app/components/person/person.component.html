@@ -1,0 +1,63 @@
+<div class="container" style="padding-top: 10px;">
+
+    <div class="alert alert-danger col-10"  *ngIf="personExist">
+     This User is alhready exist!!
+    </div>
+    <div class="alert alert-success col-10"  *ngIf="isCreated">
+        This User is registred successfully!!
+    </div>
+    
+  <form (ngSubmit)="createPerson()">
+    <div class="form-group">
+        <label for="email" class="col-2 col-form-label">Email</label>
+        <div class="col-10">
+            <input type="email" [(ngModel)]="person.email" name="email" id="email" class="forrm-control">
+        </div>
+        <div class="col-10" *ngIf="personError?.email">
+            <span class="text text-danger">{{ personError.email }}</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="nom" class="col-2 col-form-label">Nom</label>
+        <div class="col-10">
+            <input type="text" [(ngModel)]="person.nom" name="nom" id="nom" class="forrm-control">
+        </div>
+        <div class="col-10" *ngIf="personError?.nom">
+            <span class="text text-danger">{{ personError.nom }}</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="password" class="col-2 col-form-label">Password</label>
+        <div class="col-10">
+            <input type="password" [(ngModel)]="person.password" name="password" id="password" class="forrm-control">
+        </div>
+        <div class="col-10" *ngIf="personError?.password">
+            <span class="text text-danger">{{ personError.password }}</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="phone" class="col-2 col-form-label">Phone</label>
+        <div class="col-10">
+            <input type="text" [(ngModel)]="person.phone" name="phone" id="phone" class="forrm-control">
+        </div>
+        <div class="col-10" *ngIf="personError?.phone">
+            <span class="text text-danger">{{ personError.phone }}</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="age" class="col-2 col-form-label">Age</label>
+        <div class="col-10">
+            <input type="number" [(ngModel)]="person.age" name="age" id="age" class="forrm-control">
+        </div>
+        <div class="col-10" *ngIf="personError?.age">
+            <span class="text text-danger">{{ personError.age }}</span>
+        </div>
+    </div>
+
+    <input type="submit" value="createPerson" class="btn btn-primary btn-block">
+  </form>
+</div>

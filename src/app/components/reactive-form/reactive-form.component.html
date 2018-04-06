@@ -1,0 +1,51 @@
+<br />
+
+<div class="alert alert-success alert-dismissible fade show" role="alert" *ngIf="isExist==true">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>Great!</strong>This User is successfuly Registred!!.
+</div>
+
+<button type="button" class="btn btn-outline-secondary btn-lg btn-block" (click)="toggle()" id="bt">
+    {{buttonName}}
+</button>
+
+<div class="container" *ngIf="show">
+    <div *ngIf="!name">
+        <form  #rForm="ngForm" (ngSubmit)="addPost(rForm.value)">
+          <div class="form-group">
+                <h1 class="display-3"  [className]="'style1'">Reactive Form</h1>
+                <label class="control-label">Name</label>
+                  <input type="text" class="form-control" minlength="3" maxlength="10" ngModel name="name" #name="ngModel" required> 
+                  
+                  <!-- <div class="alert alert-danger" *ngIf="!name.valid && name.touched">
+                    <div *ngIf="name.errors.required">Name is required !!!! </div>
+                    <div *ngIf="name.errors.minlength">Enter Over 3 chararter !!!! </div>
+                    <div *ngIf="name.errors.maxlength">Enter Max 10 character !!!! </div>
+                    <span class="help-block" *ngIf="!name.valid && name.touched">
+                      Name is required.
+                  </span>
+                  </div> -->
+              
+          </div>
+
+          <div class="form-group">
+              <label for="description" >Description</label>
+                <textarea  id="description" class="form-control" minlength="5" maxlength="20"  ngModel name="description" required></textarea>
+                <div class="alert alert-danger" *ngIf="!description.valid && description.touched">Description is required !!!!</div>
+          </div>
+                    
+          <input type="submit" class="btn btn-primary btn-block" value="Submit" [disabled]="!rForm.valid">
+        </form>
+    </div>
+
+</div>
+
+<!-- <ng-template #forminfo>
+    <div class="form-group">
+          <h1>{{ name }}</h1>
+  
+          <p>{{ description }}</p>
+    </div>
+  </ng-template> -->

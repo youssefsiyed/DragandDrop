@@ -1,0 +1,20 @@
+<app-loading-snipper *ngIf="showSpinner"></app-loading-snipper>
+<div class="col-sm">
+<h2>Tasks Filter</h2> 
+<a href="pagination"><span class="badge badge-pill badge-warning">Tasks Pagination</span></a>
+<span class="badge badge-pill badge-info float-right">Length : {{ tasks?.length }}</span>
+<div>
+<input type="text" class="form-control" [(ngModel)]="term" placeholder="Filter Tasks...">
+</div>
+<br/>
+<span class="badge badge-pill badge-info float-right">Proposals: 48</span>
+<br/>
+<div class="card" *ngFor="let task of tasks |filter:term" draggable [dragula]='"bag-task1"'>
+  <div class="card-body">
+           <h3>{{ task.title }}</h3>
+           <span class="badge badge-danger">{{ task.lang }}</span>
+           <span class="badge badge-warning">{{ task.mainSpeaker }}</span>
+           <span class="badge badge-success">{{ task.event }}</span>
+</div>
+</div>
+</div>
